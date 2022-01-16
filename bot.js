@@ -221,7 +221,12 @@ bot.on('messageCreate', async message => {
 
 	}
 
-	if (cmd) cmd.run(bot, message, args);
+	try {
+		if (cmd) cmd.run(bot, message, args);
+	}
+	catch (e) {
+		console.err(e);
+	}
 
 
 });
@@ -262,7 +267,21 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 					// console.log("ОТРЕАГИРОВАЛ С " + item.data[i][0])
 
 
-					if (reaction.emoji.id === item.data[i][0] || reaction.emoji.name === item.data[i][0]) {reaction.message.guild.members.cache.get(user.id).roles.add(item.data[i][1].role);}
+					if (reaction.emoji.id === item.data[i][0] || reaction.emoji.name === item.data[i][0]) {
+						if (item.data[i][1].target != null) {
+							for (let j = 0; j < item.data.length; j++) {
+								if (item.data[j][1].target != null) {
+									if (item.data[j][1].target == item.data[i][1].target && reaction.message.guild.members.cache.get(user.id).roles.cache.some(role => role.id == item.data[j][1].role)) {
+										console.log(item.data[j][0]);
+										reaction.message.guild.members.cache.get(user.id).roles.remove(item.data[j][1].role);
+									}
+								}
+
+							}
+						}
+						reaction.message.guild.members.cache.get(user.id).roles.add(item.data[i][1].role);
+
+					}
 				}
 			}
 

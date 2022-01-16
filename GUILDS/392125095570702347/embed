@@ -7,22 +7,22 @@
 
 {
 	"category":["🎨 Цвета 🎨"],"data":[
-		["923872961570672680",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zred:923872961570672680","role":"915122399668748319","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961193197589",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zorange:923872961193197589","role":"911129002708713522","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961658757230",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zgold:923872961658757230","role":"902228132692635698","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961134493718",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zgreen:923872961134493718","role":"784750445846986785","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961067356220",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zblue:923872961067356220","role":"907865586032324608","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961264484382",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zdarkblue:923872961264484382","role":"784584315828830218","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961381937163",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zviolet:923872961381937163","role":"922155234682372146","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961511952424",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zpurpur:923872961511952424","role":"908609878770221068","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872962677964850",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zpink:923872962677964850","role":"898445517862895686","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961495199744",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zsilver:923872961495199744","role":"785176719317401640","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961524539462",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zwhite:923872961524539462","role":"886545696096944128","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961281261598",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zdarkgrey:923872961281261598","role":"915834831756218440","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961566474260",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zlightgrey:923872961566474260","role":"899542639442018304","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872960744402955",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zblack:923872960744402955","role":"907557485928382494","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961293844480",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zcoffee:923872961293844480","role":"899312392041807922","description":"   ", "hex": "4169E1", "custom": true}],
-		["923872961264513044",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zchocolate:923872961264513044","role":"837728444904898601","description":"   ", "hex": "4169E1", "custom": true}]
+		["923872961570672680",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zred:923872961570672680","role":"915122399668748319","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961193197589",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zorange:923872961193197589","role":"911129002708713522","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961658757230",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zgold:923872961658757230","role":"902228132692635698","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961134493718",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zgreen:923872961134493718","role":"784750445846986785","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961067356220",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zblue:923872961067356220","role":"907865586032324608","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961264484382",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zdarkblue:923872961264484382","role":"784584315828830218","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961381937163",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zviolet:923872961381937163","role":"922155234682372146","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961511952424",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zpurpur:923872961511952424","role":"908609878770221068","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872962677964850",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zpink:923872962677964850","role":"898445517862895686","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961495199744",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zsilver:923872961495199744","role":"785176719317401640","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961524539462",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zwhite:923872961524539462","role":"886545696096944128","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961281261598",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zdarkgrey:923872961281261598","role":"915834831756218440","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961566474260",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zlightgrey:923872961566474260","role":"899542639442018304","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872960744402955",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zblack:923872960744402955","role":"907557485928382494","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961293844480",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zcoffee:923872961293844480","role":"899312392041807922","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}],
+		["923872961264513044",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":true,"reaction":"zchocolate:923872961264513044","role":"837728444904898601","description":"   ", "hex": "4169E1", "custom": true, "target": "color"}]
 		]
 },
 
@@ -42,34 +42,34 @@
 
 {
 	"category":["🗺️ Моя страна 📍"],"data":[
-		["🇷🇺",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇷🇺","role":"924567035634126869","description":" ", "hex": "4169E1", "custom":false}],
-		["🇺🇦",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇺🇦","role":"924567266270543893","description":" ", "hex": "4169E1", "custom":false}],
-		["🇧🇾",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇧🇾","role":"924567816961658900","description":" ", "hex": "4169E1", "custom":false}],
-		["🇰🇿",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇰🇿","role":"924567418964164618","description":" ", "hex": "4169E1", "custom":false}],
-		["🇪🇺",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇪🇺","role":"924568111838027819","description":" ", "hex": "4169E1", "custom":false}],
-		["🇺🇸",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇺🇸","role":"924570383288500235","description":" ", "hex": "4169E1", "custom":false}]
+		["🇷🇺",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇷🇺","role":"924567035634126869","description":" ", "hex": "4169E1", "custom":false, "target": "country"}],
+		["🇺🇦",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇺🇦","role":"924567266270543893","description":" ", "hex": "4169E1", "custom":false, "target": "country"}],
+		["🇧🇾",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇧🇾","role":"924567816961658900","description":" ", "hex": "4169E1", "custom":false, "target": "country"}],
+		["🇰🇿",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇰🇿","role":"924567418964164618","description":" ", "hex": "4169E1", "custom":false, "target": "country"}],
+		["🇪🇺",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇪🇺","role":"924568111838027819","description":" ", "hex": "4169E1", "custom":false, "target": "country"}],
+		["🇺🇸",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🇺🇸","role":"924570383288500235","description":" ", "hex": "4169E1", "custom":false, "target": "country"}]
 		
 	]
 },
 
 {
 	"category":["Мой биологический пол и сексуальная ориентация"],"data":[
-		["♂️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"♂️","role":"924566562273366067","description":" ", "hex": "4169E1", "custom":false}],
-		["♀️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"♀️","role":"924566489305083914","description":" ", "hex": "4169E1", "custom":false}],
-		["👩‍❤️‍👨",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"👩‍❤️‍👨","role":"924566727826763786","description":" ", "hex": "4169E1", "custom":false}],
-		["🏳️‍🌈",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🏳️‍🌈","role":"924566628031672351","description":" ", "hex": "4169E1", "custom":false}],
-		["😩",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"😩","role":"924566811641511956","description":" ", "hex": "4169E1", "custom":false}]
+		["♂️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"♂️","role":"924566562273366067","description":" ", "hex": "4169E1", "custom":false, "target": "sex"}],
+		["♀️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"♀️","role":"924566489305083914","description":" ", "hex": "4169E1", "custom":false, "target": "sex"}],
+		["👩‍❤️‍👨",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"👩‍❤️‍👨","role":"924566727826763786","description":" ", "hex": "4169E1", "custom":false, "target": "sexual"}],
+		["🏳️‍🌈",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🏳️‍🌈","role":"924566628031672351","description":" ", "hex": "4169E1", "custom":false, "target": "sexual"}],
+		["😩",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"😩","role":"924566811641511956","description":" ", "hex": "4169E1", "custom":false, "target": "sexual"}]
 		
 	]
 },
 
 {
 	"category":["Мой возраст "],"data":[
-		["❤️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"❤️","role":"924568389106683945","description":" ", "hex": "4169E1", "custom":false}],
-		["💚",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💚","role":"924568515095175218","description":" ", "hex": "4169E1", "custom":false}],
-		["💙",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💙","role":"924568729130528789","description":" ", "hex": "4169E1", "custom":false}],
-		["💜",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💜","role":"924568858671607848","description":" ", "hex": "4169E1", "custom":false}],
-		["🤍",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🤍","role":"924568949591515147","description":" ", "hex": "4169E1", "custom":false}]
+		["❤️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"❤️","role":"924568389106683945","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["💚",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💚","role":"924568515095175218","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["💙",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💙","role":"924568729130528789","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["💜",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💜","role":"924568858671607848","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["🤍",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🤍","role":"924568949591515147","description":" ", "hex": "4169E1", "custom":false, "target":"age"}]
 		
 	]
 }

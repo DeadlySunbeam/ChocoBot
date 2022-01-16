@@ -1,108 +1,106 @@
-const Discord = module.require("discord.js")
-
-
-const { 
-	generateDependencyReport,
-	joinVoiceChannel,
+const ytdl = require('ytdl-core');
+const ytSearch = require('yt-search');
+const { joinVoiceChannel,
 	createAudioPlayer,
-	createAudioResource,
-	entersState,
-	StreamType,
-	AudioPlayerStatus,
-	VoiceConnectionStatus, } = require('@discordjs/voice');
-
-	var pathToFfmpeg = require('ffmpeg-static');
-
-	console.log(pathToFfmpeg);
-
-const ytdl = require("ytdl-core");
+	createAudioResource } = require('@discordjs/voice');
 
 
-var severs = {};
+module.exports.run = async (_bot, message, args) => {
 
 
-module.exports.run = async (bot, message, args) => {
+	const player = createAudioPlayer();
 
 
+	const video_player = async (guild, song_s) => {
+		const song_queue = queue.get(guild.id);
 
-const player = createAudioPlayer();
+		if (!song_s) {
+			song_queue.voice_channel.leave();
+			queue.delete(guild.id);
+			return;
+		}
 
-	
-!
+		const stream = ytdl(song.url, { filter: 'audioonly' });
 
-	console.log(message.member.voice.channelId);
+		const resource = createAudioResource(stream);
 
-	//console.log(generateDependencyReport());
+		player.play(resource, { seek:0, volume: 0.5 });
 
+		song_queue.connection.subscribe(player)
+			// .on('finish', () => {
+			// 	song_queue.songs.shift();
+			// 	video_player(guild, song_queue.songs[0]);
+			// });
 
-	if(!message.member.voice.channelId) { message.reply("Вы должны быть в голосовом канале, чтобы использовать эту команду"); return;}
+		await song_queue.text_channel.send(`Сейчас играет **${song.title}**`);
 
-	if(!args[0]) { message.reply("Укажите ссылку или слово для поиска песни");  return;}
-
-	if(message.guild.me.voice.channel) {console.log("КУ-КУ"); return;}
-
-
-// const connection = joinVoiceChannel({
-// 	channelId: message.member.voice.channel.id,
-// 	guildId: message.guild.id,
-// 	adapterCreator: message.guild.voiceAdapterCreator
-// })
-
-
-joinVoiceChannel({
-	channelId: message.member.voice.channel.id,
-	guildId: message.guild.id,
-	adapterCreator: message.guild.voiceAdapterCreator
-})
+	};
 
 
-console.log(message.guild.voiceAdapterCreator);
+	const voice_channel = message.member.voice.channel;
 
-//joinVoiceChannel()
+	const queue = new Map();
 
-//console.log(connection);
+	const server_queue = queue.get(message.guild.id);
 
+	if (!args.length) return message.channel.send('Введите название или ссылку на музыку в YouTube');
+	let song = {};
 
-
-async function start() {
-
-	const resource = createAudioResource('https://www.youtube.com/watch?v=FRVwU-tKNHQ&ab_channel=SONIAN', {
-		inputType: StreamType.Arbitrary,
-	});
-
-
-	player.play(resource);
-	try {
-		await entersState(player, AudioPlayerStatus.Playing, 5_000);
-		// The player has entered the Playing state within 5 seconds
-		console.log('Playback has started!');
-	} catch (error) {
-		// The player has not entered the Playing state and either:
-		// 1) The 'error' event has been emitted and should be handled
-		// 2) 5 seconds have passed
-		console.error(error);
+	if (ytdl.validateURL(args[0])) {
+		const song_info = await ytdl.getInfo(args[0]);
+		song = { title: song_info.videoDetails.title, url: song_info.videoDetails.video_url }
 	}
-}
+	else {
+		const video_finder = async (query) => {
+			const videoResult = await ytSearch(query);
+			return (videoResult.videos.length > 1) ? videoResult.videos[0] : null;
+		};
 
-void start();
+		const video = await video_finder(args.join(''));
+		if (video) {
+			song = { title: video.title, url: video.url };
+		} 
+		else {
+			message.channel.send('Ошибка при поиске видео');
+		}
+	}
 
-// connection.on(VoiceConnectionStatus.Ready, () => {
-// 	console.log('The connection has entered the Ready state - ready to play audio!');
-// });
+	if (!server_queue) {
+
+		const queue_constructor = {
+			voice_channel: voice_channel,
+			text_channel: message.channel,
+			connection: null,
+			songs: [],
+		};
+
+		queue.set(message.guild.id, queue_constructor);
+		queue_constructor.songs.push(song);
 
 
+		try {
+			const connection = await joinVoiceChannel({
+				channelId: voice_channel.id,
+				guildId: message.guild.id,
+				adapterCreator: message.channel.guild.voiceAdapterCreator,
+			});
+			queue_constructor.connection = connection;
+			video_player(message.guild, queue_constructor.songs[0]);
+		}
+		catch (err) {
+			queue.delete(message.guild.id);
+			message.channel.send('Ошибка при попытке подключиться, возможно вы не в голосовом канале.');
+			console.error(err);
+		}
+	}
+	else {
+		server_queue.song.push(song);
+		return message.channel.send(` **${song.title}** добавлена в очередь`);
+	}
 
-
-// const connection = joinVoiceChannel({
-// 	channelId: channel.id,
-// 	guildId: channel.guild.id,
-// 	adapterCreator: channel.guild.voiceAdapterCreator,
-// });
-
-
-}
+};
 module.exports.help = {
-    name: "играть",
-    type: "moderation",
-    desc: "Воспроизвести музыку"
-}
+	name: 'играть',
+	type: 'moderation',
+	desc: 'Воспроизвести музыку',
+};
