@@ -151,10 +151,10 @@ module.exports.run = async (bot, message, args) => {
      ctx.shadowColor = "#000";
      ctx.shadowOffsetX = 0;
      ctx.shadowBlur = 0;
-     ctx.font = '100px ';
+     ctx.font = '100px Mono';
      ctx.fillStyle = 'rgba(250, 250, 250, 0.9)';
      ctx.fillText(score, 1260 - align, 515)
-      ctx.font = '30px Impact';
+      ctx.font = '30px ';
     ctx.fillStyle = 'rgba(250, 250, 250, 0.9)';
     ctx.fillText("Всего ЧокоЧипсиков:", 1120, 410)
 
@@ -164,12 +164,18 @@ module.exports.run = async (bot, message, args) => {
     else
       MES_REPLY = "Сумка " + MES_USER.user.username;
   const imgeStream = canvas.toBuffer();
-  let aMessage = await message.reply(MES_REPLY, {
+  let aMessage = await message.reply( 
+		{content:MES_REPLY,
             files:
             [
              imgeStream
             ]
         });
+
+				if (startPos > 29) 
+				{
+						aMessage.react("<:left_arrow:855459246200193024>");
+				}
 
 
   if (items_count > 30) 
@@ -177,28 +183,29 @@ module.exports.run = async (bot, message, args) => {
      aMessage.react("<:right_arrow:855459223763943424>");
   }
     
-  if (startPos > 29) 
-  {
-      aMessage.react("<:left_arrow:855459246200193024>");
-  }
+ 
 
    aMessage.react("<:close:855470010947993631>");
 
-  const ChocoFilter = (reaction, user) => (reaction.emoji.name === 'right_arrow' || reaction.emoji.name === 'left_arrow' || reaction.emoji.name === 'close') && user.id === message.author.id;
-  aMessage.awaitReactions(ChocoFilter, { max: 1})
-  .then( async (collected) => { 
+	 const filter = (reaction, user) => {
+		return (reaction.emoji.name === 'right_arrow' || reaction.emoji.name === 'left_arrow' || reaction.emoji.name === 'close') && user.id === message.author.id;
+	};
+
+
+  aMessage.awaitReactions({filter,  max: 1})
+  .then(collected => {
+		const reaction = collected.first();
     
 
-    
 
-    if(collected.first().emoji.name === 'left_arrow')
+    if(reaction.emoji.name === 'left_arrow')
     {
-      await Draw(startPos-30,currentItemCount-30);
+      Draw(startPos-30,currentItemCount-30);
     }
 
-    if(collected.first().emoji.name === 'right_arrow')
+    if(reaction.emoji.name === 'right_arrow')
     {
-      await Draw(startPos+30,currentItemCount+30);
+      Draw(startPos+30,currentItemCount+30);
     }
 
     aMessage.delete(); 
@@ -223,10 +230,10 @@ console.log(arr2.length + " размер таблицы");
 
 
 await msg.delete();
-await message.delete();
+//await message.delete();
 }
 module.exports.help = {
-    name: "сумка",
+    name: ["сумка","рюкзак","мешок","инвентарь","вещи"],
     type: "info",
     desc: "Посмотреть в свою или чужую сумку"
 }

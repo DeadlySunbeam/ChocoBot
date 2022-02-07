@@ -14,6 +14,7 @@ module.exports.run = async (bot, message, args) => {
 
 	console.log(args);
 
+	var request_money;
 
 	let toGet;
 
@@ -127,22 +128,30 @@ request_mes.awaitReactions({ filter, max: 1, time: 60000, errors: ['time'] })
 			Score = obj2['Users'].find( User => User.ID === message.author.id).Score;
 
 			if(GiftScore < request_money) {
-				message.reply("Мы тут проверили счёт, оказывается у вас не хватает " + (request_money - GiftScore) + " ЧокоЧипсиков! Перевод недействителен!"); return;
+				message.reply("Мы тут проверили счёт, оказывается у вас не хватает " + (request_money - GiftScore) + " ЧокоЧипсиков! Перевод недействителен!").catch(error => {
+					message.channel.send(`Мы тут проверили счёт, оказывается у вас не хватает ${(request_money - GiftScore)} ЧокоЧипсиков! Перевод недействителен!`);
+				}); return;
 			}
 			
 			obj2['Users'].find( User => User.ID === message.author.id).Score = Score + request_money;
 			obj2['Users'].find(User => User.ID === toGet.id).Score = GiftScore - request_money;
 			fs.writeFileSync(dir3+"/Score.json", JSON.stringify(obj2))
 		
-			message.reply(`Перевод успешно завершен, теперь у ${toGet} ${GiftScore - request_money} Чокочипсиков. А у ${message.author} их ${Score + request_money}`)
+			message.reply(`Перевод успешно завершен, теперь у ${toGet} ${GiftScore - request_money} Чокочипсиков. А у ${message.author} их ${Score + request_money}`).catch(error => {
+				message.channel.send(`Перевод успешно завершен, теперь у ${toGet} ${GiftScore - request_money} Чокочипсиков. А у ${message.author} их ${Score + request_money}`);
+			})
 		
 
 		} else {
-			message.reply(`${message.author} Деняк не будет, ${toGet} отказался переводить ЧокоЧипсики.`);
+			message.reply(`${message.author} Деняк не будет, ${toGet} отказался переводить ЧокоЧипсики.`).catch(error => {
+				message.channel.send(`${message.author} Деняк не будет, ${toGet} отказался переводить ЧокоЧипсики.`);
+			})
 		}
 	})
 	.catch(collected => {
-		message.reply('Время ожидания истекло. ЧокоЧипсики никто не отдаёт!');
+		message.reply('Время ожидания истекло. ЧокоЧипсики никто не отдаёт!').catch(error => {
+			message.channel.send('Время ожидания истекло. ЧокоЧипсики никто не отдаёт!');
+		});
 	});
 
 }

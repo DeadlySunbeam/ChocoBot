@@ -1,15 +1,14 @@
-const Discord = module.require("discord.js")
-module.exports.run = async (bot, message, args) => {
+module.exports.run = async (bot, message) => {
 
-console.log(message.guild.emojis);
-message.guild.emojis.forEach((item, i) => {
+	console.log(message.guild.emojis);
+	// message.guild.emojis.forEach((item, i) => {
 
-});
+	// });
 
 
-}
+};
 module.exports.help = {
-    name: "реакции",
-    type: "moderation",
-    desc: "Команда помощи"
-}
+	name: 'реакции',
+	type: 'moderation',
+	desc: 'Команда помощи',
+};

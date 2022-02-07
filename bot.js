@@ -19,6 +19,7 @@ const Channels = [];
 
 bot.on('error', console.error);
 
+
 fs.readdir('./cmds/', (err, files) => {
 	if (err) console.error(err);
 	const jsfiles = files.filter(f => f.split('.').pop() === 'js');
@@ -49,6 +50,10 @@ const getApp = (guildId) => {
 	}
 	return app;
 };
+
+process.on('unhandledRejection', error => {
+	console.error('Unhandled promise rejection:', error);
+});
 
 
 bot.on('ready', async () => {
