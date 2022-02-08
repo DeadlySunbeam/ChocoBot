@@ -11,12 +11,13 @@ module.exports.run = async (bot, message, args) => {
 	if (args.length === 0) {
 		bot.commands.forEach(element => {
 			if (element.help.type === 'info' || element.help.type === 'image') {
-				if (Array.isArray(!element.help.name)) {
+				if (!Array.isArray(element.help.name)) {
 					text += '**' + element.help.name + '**' + ' - ' + element.help.desc + '\n\n';
 				}
 				else if (name_flag != element.help.name[0]) {
 					name_flag = element.help.name[0];
-					text += '**' + element.help.name + '**' + ' - ' + element.help.desc + '\n\n';
+					const commands = element.help.name.toString().replace(/,/g, ', ');
+					text += '**' + commands + '**' + ' - ' + element.help.desc + '\n\n';
 				}
 			}
 		});

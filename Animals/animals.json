@@ -1,0 +1,43 @@
+{"all": [
+    {
+        "command":"рысь",
+        "folder":"lynx"
+    },
+
+    {
+        "command":"волк",
+        "folder":"wolf"
+    },
+
+    {
+        "command":"змея",
+        "folder":"snake"
+    },
+
+    {
+        "command":"каракал",
+        "folder":"caracal"
+    },
+
+    {
+        "command":"барс",
+        "folder":"snow_leopard"
+    },
+    {
+        "command":"феня",
+        "folder":"fennec"
+    },
+    {
+        "command":"медоед",
+        "folder":"honey"
+    },
+    {
+        "command":"сервал",
+        "folder":"serval"
+    },
+    {
+        "command":"птица",
+        "folder":"bird"
+    }
+]
+}
