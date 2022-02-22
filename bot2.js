@@ -114,7 +114,7 @@ bot.on('ready', async () => {
 
 	console.log(slashCommands);
 
-	bot.users.fetch("241850808960811008");
+	bot.users.fetch('241850808960811008');
 
 
 });
