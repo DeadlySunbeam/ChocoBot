@@ -1,3 +1,4 @@
 BotSettings.json 
 node_modules/
-BotSettings.json
+error_logs.txt
+.gitignore

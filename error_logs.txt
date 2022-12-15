@@ -220,3 +220,4 @@ components[0].components[0].style[BASE_TYPE_REQUIRED]: This field is required
 components[0].components[1].style[BASE_TYPE_REQUIRED]: This field is required
 components[0].components[2].style[BASE_TYPE_REQUIRED]: This field is required
 Tue Aug 23 2022 10:00:41 GMT+0300 (Eastern European Summer Time): Error: Unsupported image type
+Thu Dec 15 2022 10:11:04 GMT+0000 (Greenwich Mean Time): DiscordAPIError[10008]: Unknown Message
