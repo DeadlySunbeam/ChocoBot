@@ -25,7 +25,7 @@ module.exports.run = async (name, randomObject) => {
 	const urls = JSON.parse(rawdata);
 	const rurls = getRandomInt(urls.length);
 	console.log(name + ' urls = ' + rurls + ' from ' + randomWord[randomObject]);
-	const embed = new Discord.MessageEmbed()
+	const embed = new Discord.EmbedBuilder()
 		.setColor('#4169E1')
 		.setImage(urls[rurls]);
 

@@ -6,12 +6,12 @@ function getRandomInt(max) {
 }
 
 module.exports.run = async (bot, message) => {
-	let embed = new Discord.MessageEmbed();
-	embed = await show.run('lynx', getRandomInt(2));
+	let embed = new Discord.EmbedBuilder();
+	embed = await show.run('caracal', getRandomInt(2));
 	await message.channel.send({ embeds:[embed] });
 };
 module.exports.help = {
-	name: 'рысь',
+	name: 'каракал',
 	type: 'image',
-	desc: 'Прислать картинку рыси',
+	desc: 'Прислать картинку каракала',
 };

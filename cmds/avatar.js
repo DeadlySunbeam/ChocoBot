@@ -26,15 +26,15 @@ module.exports.run = async (bot, message, args) => {
 
 	if (!toGet && AMes.length < 8) {
 
-		const embed = new Discord.MessageEmbed()
-			.setAuthor(message.author.username, message.author.avatarURL())
+		const embed = new Discord.EmbedBuilder()
+			.setAuthor({ name: message.author.username, iconURL: message.author.avatarURL() })
 			.setDescription('Аватар пользователя ' + message.author.username)
 
 		// .setThumbnail(message.author.image)
 			.setColor('#4169E1')
 		// .setTitle("Аватар пользователя")
 			.setImage(message.author.avatarURL())
-			.setFooter('Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, bot.users.cache.get('241850808960811008').avatarURL());
+			.setFooter({ text: 'Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, iconURL: bot.users.cache.get('241850808960811008').avatarURL() });
 		// .setImage(message.author.image);
 		message.channel.send({ embeds:[embed] });
 
@@ -50,15 +50,15 @@ module.exports.run = async (bot, message, args) => {
 
 			if (UUser.user.username.match(AMes.substr(8)) && count == 0) {
 				count++;
-				const embed = new Discord.MessageEmbed()
-					.setAuthor(message.author.username, message.author.avatarURL())
+				const embed = new Discord.EmbedBuilder()
+					.setAuthor({ name: message.author.username, iconURL: message.author.avatarURL() })
 					.setDescription('Аватар пользователя ' + UUser.user.username)
 
 				// .setThumbnail(message.author.image)
 					.setColor('#4169E1')
 				// .setTitle("Аватар пользователя")
 					.setImage(UUser.user.displayAvatarURL())
-					.setFooter('Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, bot.users.cache.get('241850808960811008').avatarURL());
+					.setFooter({ text: 'Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, iconURL: bot.users.cache.get('241850808960811008').avatarURL() });
 				// .setImage(message.author.image);
 				message.channel.send({ embeds:[embed] });
 
@@ -66,15 +66,15 @@ module.exports.run = async (bot, message, args) => {
 		});
 	}
 	else {
-		const embed = new Discord.MessageEmbed()
-			.setAuthor(message.author.username, message.author.avatarURL())
+		const embed = new Discord.EmbedBuilder()
+			.setAuthor({ name: message.author.username, iconURL: message.author.avatarURL() })
 			.setDescription('Аватар пользователя ' + toGet.user.username)
 
 		// .setThumbnail(message.author.image)
 			.setColor('#4169E1')
 		// .setTitle("Аватар пользователя")
 			.setImage(toGet.user.displayAvatarURL())
-			.setFooter('Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, bot.users.cache.get('241850808960811008').avatarURL());
+			.setFooter({ text: 'Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, iconURL: bot.users.cache.get('241850808960811008').avatarURL() });
 		// .setImage(message.author.image);
 		message.channel.send({ embeds:[embed] });
 	}

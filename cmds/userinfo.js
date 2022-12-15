@@ -1,6 +1,6 @@
 const Discord = module.require('discord.js');
 module.exports.run = async (bot, message) => {
-	const embed = new Discord.MessageEmbed()
+	const embed = new Discord.EmbedBuilder()
 		.setAuthor(message.author.username, message.author.avatarURL)
 	// .setDescription("https://www.avtovzglyad.ru/media/article/BMW_3-Series_2019.jpg.740x555_q85_box-38%2C115%2C1102%2C913_crop_detail_upscale.jpg")
 

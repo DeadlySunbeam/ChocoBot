@@ -1,207 +1,222 @@
-Wed Feb 09 2022 09:58:29 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './URL/undefined/undefined_urls_gif.json'
-Wed Feb 09 2022 09:58:31 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './URL/undefined/undefined_urls.json'
-Wed Feb 09 2022 09:58:38 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './URL/undefined/undefined_urls.json'
-Thu Feb 10 2022 20:57:25 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'reactions')
-Thu Feb 10 2022 21:17:54 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Fri Feb 11 2022 02:51:16 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Fri Feb 11 2022 02:51:57 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Fri Feb 11 2022 02:51:58 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Interaction has already been acknowledged.
-Fri Feb 11 2022 02:52:02 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Fri Feb 11 2022 02:52:02 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Interaction has already been acknowledged.
-Fri Feb 11 2022 03:15:04 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Interaction has already been acknowledged.
-Fri Feb 11 2022 14:02:49 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'ID')
-Fri Feb 11 2022 14:02:49 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Fri Feb 11 2022 14:02:49 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Fri Feb 11 2022 14:03:07 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Fri Feb 11 2022 14:03:07 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Fri Feb 11 2022 14:03:07 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Sat Feb 12 2022 01:26:29 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'type')
-Sat Feb 12 2022 01:27:13 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'type')
-Sat Feb 12 2022 01:28:39 GMT+0200 (Eastern European Standard Time): TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
-Sat Feb 12 2022 02:23:04 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:34:33 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Permissions
-Sat Feb 12 2022 02:36:03 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:36:04 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Permissions
-Sat Feb 12 2022 02:38:47 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:39:10 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:42:25 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:42:25 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-position: Value "NaN" is not int32.
-Sat Feb 12 2022 02:44:08 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:47:29 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './GUILDS/926717911798796380/permissions.json'
-Sat Feb 12 2022 02:47:32 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './GUILDS/926717911798796380/permissions.json'
-Sat Feb 12 2022 02:47:55 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open './GUILDS/926717911798796380/permissions.json'
-Sat Feb 12 2022 02:55:26 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 02:58:27 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 03:01:54 GMT+0200 (Eastern European Standard Time): Error [GUILD_VOICE_CHANNEL_RESOLVE]: Could not resolve channel to a guild voice channel.
-Sat Feb 12 2022 03:46:29 GMT+0200 (Eastern European Standard Time): SyntaxError: Unexpected end of JSON input
-Sat Feb 12 2022 04:37:06 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Access
-Sat Feb 12 2022 04:37:10 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Access
-Sat Feb 12 2022 04:37:12 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Access
-Sat Feb 12 2022 04:37:29 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Missing Access
-Mon Feb 21 2022 07:09:46 GMT+0200 (Eastern European Standard Time): ReferenceError: prefix is not defined
-Mon Feb 21 2022 07:13:29 GMT+0200 (Eastern European Standard Time): ReferenceError: prefix is not defined
-Mon Feb 21 2022 08:52:51 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 08:55:55 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 08:57:41 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 08:58:17 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 09:05:32 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 09:06:13 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'set')
-Mon Feb 21 2022 10:36:24 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 10:48:18 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'content')
-Mon Feb 21 2022 10:53:05 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:53:37 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:54:14 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:54:33 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:55:20 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:56:12 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 10:56:59 GMT+0200 (Eastern European Standard Time): ReferenceError: embed is not defined
-Mon Feb 21 2022 10:58:20 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:00:43 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:01:16 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:01:47 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:02:05 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:02:30 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:02:46 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 11:04:15 GMT+0200 (Eastern European Standard Time): RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
-Mon Feb 21 2022 11:04:31 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 11:04:51 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 11:05:27 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 11:05:49 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 11:33:43 GMT+0200 (Eastern European Standard Time): Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
-Mon Feb 21 2022 11:36:42 GMT+0200 (Eastern European Standard Time): Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
-Mon Feb 21 2022 11:37:04 GMT+0200 (Eastern European Standard Time): Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
-Mon Feb 21 2022 11:51:12 GMT+0200 (Eastern European Standard Time): TypeError: this.options.embeds?.map is not a function
-Mon Feb 21 2022 11:51:12 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Mon Feb 21 2022 11:54:55 GMT+0200 (Eastern European Standard Time): TypeError: this.options.embeds?.map is not a function
-Mon Feb 21 2022 11:56:30 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Mon Feb 21 2022 11:56:40 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Mon Feb 21 2022 12:06:14 GMT+0200 (Eastern European Standard Time): TypeError: msg.delete is not a function
-Mon Feb 21 2022 12:09:28 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown interaction
-Mon Feb 21 2022 12:11:30 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown User
-Mon Feb 21 2022 12:14:12 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-data.embeds[0].description: This field is required
-Mon Feb 21 2022 12:30:41 GMT+0200 (Eastern European Standard Time): TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
-Mon Feb 21 2022 12:31:32 GMT+0200 (Eastern European Standard Time): TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Array
-Mon Feb 21 2022 12:32:13 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open '../GUILD/392125095570702347/embeds.json'
-Mon Feb 21 2022 12:33:15 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open '../GUILD/392125095570702347/embeds.json'
-Mon Feb 21 2022 12:34:31 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open '../GUILD/392125095570702347/embeds.json'
-Mon Feb 21 2022 12:35:21 GMT+0200 (Eastern European Standard Time): Error: ENOENT: no such file or directory, open '../GUILDS/392125095570702347/embeds.json'
-Mon Feb 21 2022 17:07:10 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot send an empty message
-Mon Feb 21 2022 17:09:04 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:09:36 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:10:54 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:20:02 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:21:10 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:21:52 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:22:09 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Invalid Form Body
-content: Must be 2000 or fewer in length.
-Mon Feb 21 2022 17:48:06 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'description')
-Mon Feb 21 2022 17:50:26 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'description')
-Mon Feb 21 2022 18:49:46 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 18:52:01 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied command is not a ApplicationCommandResolvable.
-Mon Feb 21 2022 18:54:55 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:01:58 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:06:24 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:16:22 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:16:58 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:17:22 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:22:29 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:22:56 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:29:15 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:29:37 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:30:16 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:32:39 GMT+0200 (Eastern European Standard Time): TypeError: AdminMenu.has is not a function
-Mon Feb 21 2022 19:33:35 GMT+0200 (Eastern European Standard Time): TypeError: AdminMenu.has is not a function
-Mon Feb 21 2022 19:36:16 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:40:13 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:40:31 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:41:15 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:41:37 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:54:19 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:54:33 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:55:20 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:55:54 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 19:58:25 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'name')
-Mon Feb 21 2022 19:58:48 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'name')
-Mon Feb 21 2022 19:59:31 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'name')
-Mon Feb 21 2022 19:59:59 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:00:33 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'commandName')
-Mon Feb 21 2022 20:00:42 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:02:13 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:03:42 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:04:00 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:21:28 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:21:39 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:22:29 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:23:38 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:24:00 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:25:42 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied fullPermissions is not an Array of GuildApplicationCommandPermissionData.
-Mon Feb 21 2022 20:28:31 GMT+0200 (Eastern European Standard Time): TypeError: element.has is not a function
-Mon Feb 21 2022 20:39:06 GMT+0200 (Eastern European Standard Time): TypeError: Commands.fetch is not a function
-Mon Feb 21 2022 20:39:15 GMT+0200 (Eastern European Standard Time): TypeError: Commands.fetch is not a function
-Mon Feb 21 2022 20:40:06 GMT+0200 (Eastern European Standard Time): TypeError: Commands.fetch is not a function
-Mon Feb 21 2022 20:40:56 GMT+0200 (Eastern European Standard Time): TypeError: Commands.find is not a function
-Mon Feb 21 2022 20:41:10 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:44:28 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:44:53 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:45:28 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:45:48 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:46:36 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:47:15 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:48:55 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:49:02 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:49:56 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:52:50 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:53:50 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'permissions')
-Mon Feb 21 2022 20:54:13 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'permissions')
-Mon Feb 21 2022 20:54:51 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:55:01 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:55:52 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:56:37 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:57:13 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 20:57:24 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:02:28 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:02:29 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:02:29 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:02:29 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:03:36 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:03:36 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:03:37 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:03:37 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of undefined (reading 'add')
-Mon Feb 21 2022 21:06:56 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied permissions is not an Array of ApplicationCommandPermissionData.
-Mon Feb 21 2022 21:06:56 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied permissions is not an Array of ApplicationCommandPermissionData.
-Mon Feb 21 2022 21:06:56 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied permissions is not an Array of ApplicationCommandPermissionData.
-Mon Feb 21 2022 21:06:56 GMT+0200 (Eastern European Standard Time): TypeError [INVALID_TYPE]: Supplied permissions is not an Array of ApplicationCommandPermissionData.
-Mon Feb 21 2022 22:06:00 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:06:50 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:07:33 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:08:41 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:09:56 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:12:54 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:14:42 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:15:20 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:17:49 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:19:22 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:19:43 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:22:27 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:24:00 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:29:04 GMT+0200 (Eastern European Standard Time): TypeError: Cannot read properties of null (reading 'awaitMessages')
-Mon Feb 21 2022 22:31:15 GMT+0200 (Eastern European Standard Time): TypeError: userChannel.awaitMessages is not a function
-Mon Feb 21 2022 23:06:28 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Unknown Message
-Mon Feb 21 2022 23:14:26 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot edit a message authored by another user
-Wed Feb 23 2022 10:46:52 GMT+0200 (Eastern European Standard Time): DiscordAPIError: Cannot edit a message authored by another user
+Mon Aug 15 2022 19:49:13 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:49:13 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:49:14 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:49:14 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:49:14 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:50:16 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:50:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:50:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:50:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:50:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:55:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:55:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:55:43 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:55:43 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:55:43 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:57:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:57:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:57:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:57:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:57:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:58:24 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:58:25 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:58:25 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:58:25 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:58:25 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 19:59:09 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 19:59:12 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 19:59:20 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:01:54 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:02:02 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:02:20 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:04:12 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:04:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:04:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:04:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:04:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:04:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:05:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:05:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:05:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:05:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:05:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:09 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:09 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:29 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:29 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:29 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:29 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:06:29 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:07:04 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:07:15 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:07:33 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:07:53 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:08:20 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:08:27 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:08:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:08:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:08:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:08:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:08:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:09:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:09:03 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:09:03 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:09:03 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:09:03 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:11:59 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:11:59 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:11:59 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:12:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:12:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:12:44 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Mon Aug 15 2022 20:13:57 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of null (reading 'id')
+Mon Aug 15 2022 20:14:58 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Mon Aug 15 2022 20:15:07 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:12 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Mon Aug 15 2022 20:15:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:15:32 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Mon Aug 15 2022 20:15:53 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Mon Aug 15 2022 20:16:18 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:16:18 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:16:19 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:16:19 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:16:19 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:16:59 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:57 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:58 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:58 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:58 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:17:58 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:21:47 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:21:47 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:21:47 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:21:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:21:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:22:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:22:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:22:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:22:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:22:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:26:47 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:26:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:26:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:26:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:26:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:28:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:28:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:28:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:28:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:28:53 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:33:16 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:33:16 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:33:16 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:33:16 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:33:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:40:47 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:40:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:40:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:40:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 20:40:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:13:06 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:13:06 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:13:06 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:13:06 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:13:06 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:00 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:01 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:01 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:01 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:01 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:21 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:21 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:21 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:22 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:21:22 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:41 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:22:42 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:25:50 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:25:50 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:25:51 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:25:51 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:25:51 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:26:51 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:26:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:26:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:26:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:26:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:36:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:36:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:36:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:36:21 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 21:36:21 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 23:03:01 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 23:03:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 23:03:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 23:03:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Mon Aug 15 2022 23:03:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:13:51 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:13:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:13:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:13:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:13:52 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:16:32 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:16:32 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:16:32 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:16:32 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Tue Aug 16 2022 19:16:32 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Bots cannot use this endpoint
+Wed Aug 17 2022 00:04:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Wed Aug 17 2022 10:52:15 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Invalid Form Body
+message_reference: Unknown message
+Thu Aug 18 2022 05:33:08 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 05:34:23 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'id')
+Thu Aug 18 2022 11:32:26 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:32:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:33:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:33:31 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:35:02 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:43:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:50:20 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 11:51:17 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 12:49:15 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 13:07:28 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Thu Aug 18 2022 21:35:27 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Fri Aug 19 2022 11:58:12 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'Price')
+Fri Aug 19 2022 11:58:32 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'Price')
+Fri Aug 19 2022 11:59:31 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'Price')
+Sat Aug 20 2022 21:49:30 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Sun Aug 21 2022 10:30:37 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Sun Aug 21 2022 10:53:48 GMT+0300 (Eastern European Summer Time): DiscordAPIError: Unknown Message
+Tue Aug 23 2022 09:20:57 GMT+0300 (Eastern European Summer Time): TypeError: Cannot read properties of undefined (reading 'roles')
+Tue Aug 23 2022 09:23:20 GMT+0300 (Eastern European Summer Time): Error [DisallowedIntents]: Privileged intent provided is not enabled or whitelisted.
+Tue Aug 23 2022 09:50:53 GMT+0300 (Eastern European Summer Time): TypeError: MessageButton is not a constructor
+Tue Aug 23 2022 09:54:03 GMT+0300 (Eastern European Summer Time): TypeError: MessageButton is not a constructor
+Tue Aug 23 2022 09:55:15 GMT+0300 (Eastern European Summer Time): Error: Expected the value to be one of the following enum values:
+Tue Aug 23 2022 09:56:00 GMT+0300 (Eastern European Summer Time): TypeError: MessageActionRow is not a constructor
+Tue Aug 23 2022 09:56:36 GMT+0300 (Eastern European Summer Time): DiscordAPIError[50035]: Invalid Form Body
+components[0].components[0].style[BASE_TYPE_REQUIRED]: This field is required
+components[0].components[1].style[BASE_TYPE_REQUIRED]: This field is required
+components[0].components[2].style[BASE_TYPE_REQUIRED]: This field is required
+Tue Aug 23 2022 10:00:41 GMT+0300 (Eastern European Summer Time): Error: Unsupported image type

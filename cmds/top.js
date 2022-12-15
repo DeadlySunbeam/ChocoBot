@@ -20,7 +20,7 @@ module.exports.run = async (bot, message) => {
 	}
 
 
-	const embed = new Discord.MessageEmbed()
+	const embed = new Discord.EmbedBuilder()
 	// .setAuthor(message.author.username, message.author.avatarURL())
 		.setDescription(top_text)
 
@@ -28,7 +28,7 @@ module.exports.run = async (bot, message) => {
 		.setColor('#4169E1')
 		.setTitle('Статистика по ЧокоЧипсикам')
 	// .setImage(message.author.avatarURL())
-		.setFooter('Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, bot.users.cache.get('241850808960811008').avatarURL());
+		.setFooter({ text: 'Кусь за бочок от ' + bot.users.cache.get('241850808960811008').username, iconURL: bot.users.cache.get('241850808960811008').avatarURL() });
 	// .setImage(message.author.image);
 	message.channel.send({ embeds:[embed] });
 

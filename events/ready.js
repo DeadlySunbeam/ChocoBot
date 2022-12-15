@@ -97,26 +97,26 @@ bot.on('ready', async () => {
 	const Commands = bot.guilds.cache.get(GuildID).commands;
 
 
-	const AdminMenupermissions = [
+	// const AdminMenupermissions = [
 
-		{
-			id: '926714315942268960',
-			type: 'ROLE',
-			permission: true,
-		},
+	// 	{
+	// 		id: '926714315942268960',
+	// 		type: 'ROLE',
+	// 		permission: true,
+	// 	},
 
-		{
-			id: '416951239650050048',
-			type: 'ROLE',
-			permission: true,
-		},
+	// 	{
+	// 		id: '416951239650050048',
+	// 		type: 'ROLE',
+	// 		permission: true,
+	// 	},
 
-		{
-			id: '927352911690883092',
-			type: 'ROLE',
-			permission: true,
-		},
-	];
+	// 	{
+	// 		id: '927352911690883092',
+	// 		type: 'ROLE',
+	// 		permission: true,
+	// 	},
+	// ];
 
 	MenuData.forEach(element => {
 		const CmdId = Commands.cache.find(el => el.name === element.name).id;
@@ -124,8 +124,8 @@ bot.on('ready', async () => {
 		if (CmdId) {
 			console.log(CmdId);
 
-			bot.guilds.cache.get(GuildID).commands.fetch(CmdId)
-				.then(command => command.permissions.add({ permissions: AdminMenupermissions }));
+			// bot.guilds.cache.get(GuildID).commands.fetch(CmdId)
+			// 	.then(command => command.permissions.add({ permissions: AdminMenupermissions }));
 
 			//	console.log(command);
 			//	command.permissions.add({ AdminMenupermissions });

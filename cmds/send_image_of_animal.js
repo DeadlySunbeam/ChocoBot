@@ -33,7 +33,7 @@ module.exports.run = async (bot, message) => {
 
 	if (!folders[indexOfAnimal]) { indexOfAnimal = getRandomInt(animal_search.length); }
 
-	let embed = new Discord.MessageEmbed();
+	let embed = new Discord.EmbedBuilder();
 	embed = await show.run(folders[indexOfAnimal], getRandomInt(2));
 	await message.channel.send({ embeds:[embed] });
 	console.log(message.content.substr(1));

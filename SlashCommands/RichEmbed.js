@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 
 module.exports.run = async (inter) => {
 
@@ -8,7 +8,7 @@ module.exports.run = async (inter) => {
 		if (!message.embeds.length) {
 			console.log('message.embeds');
 
-			const embed = new MessageEmbed()
+			const embed = new EmbedBuilder()
 				.setDescription(message.content)
 				.setColor('#4169E1');
 

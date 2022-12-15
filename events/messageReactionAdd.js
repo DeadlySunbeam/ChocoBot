@@ -38,6 +38,25 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 
 
 					if (reaction.emoji.id === item.data[i][0] || reaction.emoji.name === item.data[i][0]) {
+
+						if (item.data[i][1].target == 'horny') {
+							console.log('HORNY!');
+							if (fs.existsSync('./GUILDS/' + reaction.message.guild.id + '/Horny.json')) {
+								const hornies = JSON.parse(fs.readFileSync('./GUILDS/' + reaction.message.guild.id + '/Horny.json'));
+								console.log(hornies);
+								if (hornies['Users'].find(User => User.ID === user.id)) {
+									console.log('HORNY! 2');
+									reaction.message.guild.members.cache.get(user.id).roles.add(item.data[i][1].role);
+									return;
+								}
+								else {
+									console.log('HORNY! 3');
+									user.send({ content:'Вам не доступно хорни!', ephemeral:true });
+									return;
+								}
+							}
+						}
+
 						if (item.data[i][1].target != null) {
 							for (let j = 0; j < item.data.length; j++) {
 								if (item.data[j][1].target != null) {

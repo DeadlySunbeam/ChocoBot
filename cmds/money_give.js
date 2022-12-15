@@ -103,6 +103,6 @@ module.exports.run = async (bot, message, args) => {
 };
 module.exports.help = {
 	name: ['дать', 'перевести', 'перевод'],
-	type: 'info',
+	type: 'economy',
 	desc: 'Дать чокочипсики пользователю.',
 };

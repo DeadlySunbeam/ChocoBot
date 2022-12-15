@@ -4,7 +4,7 @@ const { Client, Collection } = require('discord.js');
 
 const fs = require('fs');
 //  const bot = new Discord.Client(, { intents: ['GUILDS', 'GUILD_MESSAGES']});
-const bot = new Client({ intents: ['DIRECT_MESSAGES', 'GUILDS', 'GUILD_MESSAGES', 'GUILD_MEMBERS', 'GUILD_MESSAGE_REACTIONS', 'GUILD_VOICE_STATES'] });
+const bot = new Client({ intents: ['DirectMessages', 'Guilds', 'GuildMessages', 'GuildMembers', 'GuildMessageReactions', 'GuildVoiceStates', 'MessageContent'] });
 
 bot.mutes = require('./mutes.json');
 
@@ -30,10 +30,15 @@ bot.on('error', error => {
 	}
 });
 
+const cmd_path = './cmds/';
 //	Command Handler
-fs.readdir('./cmds/', (err, files) => {
+fs.readdir(cmd_path, (err, files) => {
 	if (err) console.error(err);
+
+	//	const stat = fs.lstatSync(cmd_path, files);
+
 	const jsfiles = files.filter(f => f.split('.').pop() === 'js');
+
 	if (jsfiles.length <= 0) {
 		console.log('[COMMAND HANDLER] - No commands to load!');
 		return;

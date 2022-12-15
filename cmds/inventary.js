@@ -1,10 +1,10 @@
-const { createCanvas, Image } = require('canvas');
+const { createCanvas, Image, loadImage } = require('canvas');
 const CanvasWidth = 1458;
 const CanvasHeight = 1015;
 const canvas = createCanvas(CanvasWidth, CanvasHeight);
 const ctx = canvas.getContext('2d');
 const fs = require('fs');
-const { MessageActionRow, MessageButton } = require('discord.js');
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 
 module.exports.run = async (bot, message, args) => {
@@ -29,35 +29,25 @@ module.exports.run = async (bot, message, args) => {
 	const msg = await message.channel.send('Заглядываем в сумку...');
 
 	let score = 0;
-	let rawdata = fs.readFileSync('./GUILDS/' + message.guild.id + '/Score.json');
-	const obj = JSON.parse(rawdata);
-	const new_User = obj['Users'].find(User => User.ID === MES_ID);
+
 	const dir3 = './GUILDS/' + message.guild.id;
 	let arr2 = [];
 
 
 	if (!fs.existsSync(dir3 + '/Items.json')) {arr2 = 0;}
 	else {
-		rawdata = fs.readFileSync('./GUILDS/' + message.guild.id + '/Items.json');
+		const rawdata = fs.readFileSync('./GUILDS/' + message.guild.id + '/Items.json');
 		const Member = JSON.parse(rawdata)['Users'].find(User => User.ID === MES_ID);
 		if (Member) {arr2 = JSON.parse(rawdata)['Users'].find(User => User.ID === MES_ID)['Items'];}
 		else {arr2 = 0;}
 	}
 
-	if (new_User) score = new_User.Score;
+	// const UserAvatar = new Image();
+	// UserAvatar.src = message.author.displayAvatarURL({ format:'jpg' });
+	// UserAvatar.onload = () =>
+	// UserAvatar.onerror = err => { throw err; };
 
-	let score_p = score;
-	let score_d = 0;
-
-
-	while (score_p > 9) {
-		score_p = score_p / 10;
-		score_d++;
-	}
-
-	const align = score_d * 30;
-	console.log(align);
-
+	// const myimg = await loadImage(message.author.displayAvatarURL({}));
 
 	async function Draw(startPos, currentItemCount) {
 
@@ -66,15 +56,28 @@ module.exports.run = async (bot, message, args) => {
 
 		const image = new Image();
 		const image2 = new Image();
+		const crown = new Image();
 
+		console.log(message.author.displayAvatarURL());
 
 		image2.src = './items/chip.png';
 		// image3.src = `https://mdn.mozillademos.org/files/5397/rhino.jpg`;
 
 		// console.log(image3.src)
 		image.src = './inventary.jpg';
-		ctx.drawImage(image, 0, 0, CanvasWidth, CanvasHeight);
+		crown.src = './crown.png';
 
+		ctx.drawImage(image, 0, 0, CanvasWidth, CanvasHeight);
+		//	ctx.drawImage(UserAvatar, 0, 0, 100, 100);
+
+		const ImgW = 150;
+		const ImgH = 150;
+		const positionX = CanvasWidth - 240;
+		const positionY = CanvasHeight - 350;
+
+		//	ctx.drawImage(myimg, positionX, positionY, ImgW, ImgH);
+		if (message.member.roles.cache.find(role => role.id == '416951239650050048')) ctx.drawImage(crown, positionX, positionY - 100, ImgW, ImgH - 50);
+		//	console.log(canvas);
 
 		items_count = 1;
 
@@ -83,45 +86,13 @@ module.exports.run = async (bot, message, args) => {
 		if (arr2) {
 			for (let iCount = 0, iPosition = currentItemCount ; iCount + iPosition < arr2.length + 1; iCount++) {
 				image2.src = './items/' + arr2[iCount + iPosition - 1].ID + '.png';
-				ctx.drawImage(image2, 40 + 182 * ((iCount) % 6), 40 + (198 * Math.floor((iCount) / 6)));
+				ctx.drawImage(image2, 40 + 182 * ((iCount) % 6), 40 + (198 * Math.floor((iCount) / 6)), 150, 150);
 				items_count++;
 			}
 		}
-		// arr2.forEach( (element,index = 2) => {
-
-		// image2.src = "./items/"+element.ID+".png";
-		// ctx.drawImage(image2, 40+182*((index)%6), 40+(198*Math.floor((index)/6)))
-		// items_count++;
-		// });
-
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40+182, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40+182+182, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40+182+182+182, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40+182+182+182+182, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40+182+182+182+182+182, 40);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40, 40+195);
-
-		// image.src = "./Tomato.png";
-		// ctx.drawImage(image, 40, 40+195+195);
-
-		// ctx.globalAlpha = 0.1
-		// ctx.fillStyle = ctx.createPattern(bak, "repeat");
-		// ctx.fillRect(0, 0, 1800, 1000);
+		else {
+			arr2 = ['1'];
+		}
 		ctx.globalAlpha = 1;
 		// const x = 0;
 		// const y = 0;
@@ -131,9 +102,12 @@ module.exports.run = async (bot, message, args) => {
 		ctx.font = '100px Mono';
 		ctx.fillStyle = 'rgba(250, 250, 250, 0.9)';
 		ctx.fillText(score, 1260 - align, 515);
+		ctx.font = '80px Mono';
+		ctx.fillText(`${Math.floor(startPos / 30) + 1}/${Math.floor(arr2.length / 30) + 1}`, 1270 - align / 2, 900);
 		ctx.font = '30px ';
 		ctx.fillStyle = 'rgba(250, 250, 250, 0.9)';
 		ctx.fillText('Всего ЧокоЧипсиков:', 1120, 410);
+
 
 		__start_pos = startPos;
 		__currentItemCount = currentItemCount;
@@ -150,32 +124,34 @@ module.exports.run = async (bot, message, args) => {
 		else {
 			MES_REPLY = 'Сумка ' + MES_USER.user.username;
 		}
-		const imgeStream = canvas.toBuffer();
+
+		console.log(canvas);
+		const imgeStream = canvas.toBuffer('image/jpeg', { quality: 0.50 });
 
 		let aMessage = existed_mess;
 
-		const backButton = 	new MessageButton()
+		const backButton = 	new ButtonBuilder()
 			.setCustomId('back')
 			.setLabel('Назад')
-			.setStyle('PRIMARY')
+			.setStyle(ButtonStyle.Primary)
 			.setEmoji('<:left_arrow:855459246200193024>')
 			.setDisabled(!(__start_pos > 29));
 
-		const nextButton = new MessageButton()
+		const nextButton = new ButtonBuilder()
 			.setCustomId('next')
 			.setLabel('Вперед')
-			.setStyle('PRIMARY')
+			.setStyle(ButtonStyle.Primary)
 			.setEmoji('<:right_arrow:855459223763943424>')
 			.setDisabled(!(items_count > 30));
 
-		const closeButton = new MessageButton()
+		const closeButton = new ButtonBuilder()
 			.setCustomId('close')
 			.setLabel('Закрыть')
-			.setStyle('PRIMARY')
+			.setStyle(ButtonStyle.Primary)
 			.setEmoji('<:close:855470010947993631>');
 
 
-		const row = new MessageActionRow()
+		const row = new ActionRowBuilder()
 			.addComponents(
 				backButton,
 				nextButton,
@@ -191,8 +167,6 @@ module.exports.run = async (bot, message, args) => {
 								imgeStream,
 							],
 				});
-
-
 			// aMessage.react('<:left_arrow:855459246200193024>');
 
 
@@ -219,21 +193,27 @@ module.exports.run = async (bot, message, args) => {
 		collector.on('collect', async i => {
 
 
+			const rawdata3 = fs.readFileSync('./GUILDS/' + message.guild.id + '/Score.json');
+			const obj2 = JSON.parse(rawdata3);
+			const new_User2 = obj2['Users'].find(User => User.ID === MES_ID);
+			score = new_User2.Score;
+
+
 			console.log(nextButton);
 
 			if (i.customId === 'back' && __start_pos > 29) {
-				await aMessage.removeAttachments();
+				//	await aMessage.removeAttachments();
 				await Draw(__start_pos - 30, __currentItemCount - 30);
 			}
 
 			if (i.customId === 'next' && items_count > 30) {
-				await aMessage.removeAttachments();
+				//	await aMessage.removeAttachments();
 				await Draw(__start_pos + 30, __currentItemCount + 30);
 
 			}
 
 			backButton.setDisabled(!(__start_pos > 29));
-			nextButton.setDisabled(!(items_count > 30));
+			nextButton.setDisabled(!(items_count > 31));
 
 
 			row.setComponents(backButton, nextButton, closeButton);
@@ -241,7 +221,7 @@ module.exports.run = async (bot, message, args) => {
 			await i.update({ content: MES_REPLY,
 				files:
 							[
-								canvas.toBuffer(),
+								canvas.toBuffer('image/jpeg', { quality: 0.50 }),
 							], components: [row] });
 
 			if (i.customId === 'close') {
@@ -292,9 +272,34 @@ module.exports.run = async (bot, message, args) => {
 		// return aMessage;
 	}
 
+	let time = performance.now();
+
+
+	const rawdata3 = fs.readFileSync('./GUILDS/' + message.guild.id + '/Score.json');
+	const obj2 = JSON.parse(rawdata3);
+	const new_User2 = obj2['Users'].find(User => User.ID === MES_ID);
+	score = new_User2.Score;
+
+	let score_p = score;
+	let score_d = 0;
+
+
+	while (score_p > 9) {
+		score_p = score_p / 10;
+		score_d++;
+	}
+
+	const align = score_d * 30;
+	console.log(align);
 
 	await Draw(1, 1);
+	time = performance.now() - time;
+	console.log('Время отрисовки: ', time);
+	time = performance.now();
 	sendInventory();
+	time = performance.now() - time;
+	console.log('Время отправки: ', time);
+	time = performance.now();
 
 	console.log(arr2.length + ' размер таблицы');
 

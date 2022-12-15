@@ -2,7 +2,8 @@
 	
 {"category":["📢 Оповещения на сервере 📢"], "data":[["650976090310967296",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"Choco:650976090310967296","role":"849591993763496016","description":"   Оповещения об обновлениях ", "hex": "4169E1", "custom": "true"}], 
 					["684725286734004232",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"NomNom:684725286734004232","role":"849905476409884713","description":"   Оповещения о конкурсах ", "hex": "F40C0C", "custom": true}],
-					["842039639983259658",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"Happy_af:842039639983259658","role":"918102915577696256","description":"   Оповещения об игровых ивентах ", "hex": "F40C0C", "custom": true}]]},
+					["842039639983259658",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"Happy_af:842039639983259658","role":"918102915577696256","description":"   Оповещения об игровых ивентах ", "hex": "F40C0C", "custom": true}],
+					["874459058759929876",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"ChipLooksAtYou:874459058759929876","role":"949706387989073940","description":"   Для просмотра ролеплэя ", "hex": "F40C0C", "custom": true}]]},
 
 
 {
@@ -35,7 +36,8 @@
 		["🎨",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🎨","role":"924584251733729281","description":" Я люблю рисовать! Я ", "hex": "4169E1", "custom":false}],
 		["🎸",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🎸","role":"924545676094877706","description":" Я люблю играть на инструментах! Я ", "hex": "4169E1", "custom":false}],
 		["🎮",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🎮","role":"924543714959966238","description":" Я люблю играть в видеоигры! Я ", "hex": "4169E1", "custom":false}],
-		["⚽",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"⚽","role":"924586961312821248","description":" Я увлекаюсь спортом! Я ", "hex": "4169E1", "custom":false}]
+		["⚽",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"⚽","role":"924586961312821248","description":" Я увлекаюсь спортом! Я ", "hex": "4169E1", "custom":false}],
+		["🖥️",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🖥️","role":"948767339069976576","description":" Я люблю писать код! Я ", "hex": "4169E1", "custom":false}]
 		
 	]
 },
@@ -70,7 +72,17 @@
 		["💚",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💚","role":"924568515095175218","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
 		["💙",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💙","role":"924568729130528789","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
 		["💜",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💜","role":"924568858671607848","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
-		["🤍",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🤍","role":"924568949591515147","description":" ", "hex": "4169E1", "custom":false, "target":"age"}]
+		["🤍",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🤍","role":"924568949591515147","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["🤎",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"🤎","role":"948766212563828796","description":" ", "hex": "4169E1", "custom":false, "target":"age"}],
+		["💛",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"💛","role":"948766356709457971","description":" ", "hex": "4169E1", "custom":false, "target":"age"}]
+		
+	]
+},
+
+{
+	"category":["<:ChipLooksAtYou:874459058759929876>Для взрослых<:ChipLooksAtYou:874459058759929876>"],"data":[
+
+		["937389014300897321",{"url":"https://cdn.discordapp.com/emojis/650976090310967296.png","animated":false,"reaction":"ChipTrigger:937389014300897321","role":"785361748781039616","description":" - Хорни", "hex": "4169E1", "custom":true, "target":"horny"}]
 		
 	]
 }

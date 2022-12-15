@@ -84,7 +84,7 @@ module.exports.run = async (bot, message, args) => {
 			}
 
 
-			let embed = new Discord.MessageEmbed()
+			let embed = new Discord.EmbedBuilder()
       .setAuthor(message.author.username, message.author.avatarURL())
       .setDescription(`${My_Items}`)
 

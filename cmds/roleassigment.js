@@ -1,4 +1,4 @@
-const { MessageEmbed } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 
 
@@ -75,7 +75,7 @@ module.exports.run = async (bot, message) => {
 
 		item.category;
 
-		const embed = new MessageEmbed()
+		const embed = new EmbedBuilder()
 		// Set the title of the field
 			.setTitle(item.category + ' ')
 		// Set the color of the embed
