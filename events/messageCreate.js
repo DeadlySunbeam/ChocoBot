@@ -92,31 +92,32 @@ bot.on('messageCreate', async message => {
 
 		}
 
-		const UserText = message.content.toLowerCase();
+		// const UserText = message.content.toLowerCase();
 
 
-		if ((UserText.includes('чоко') && (getRandomInt(3) - 1) > 0) || (UserText.includes('чоко') && UserText.includes('пожалуйста'))) message.reply(ChocoAnswers[getRandomInt(ChocoAnswers.length)]);
+		// if ((UserText.includes('чоко') && (getRandomInt(3) - 1) > 0) || (UserText.includes('чоко') && UserText.includes('пожалуйста'))) message.reply(ChocoAnswers[getRandomInt(ChocoAnswers.length)]);
 
-		if (((UserText.includes('привет')) ||
-		(UserText.includes('хай')) ||
-		(UserText.includes('доброе утро')) ||
-		(UserText.includes('добрый день')) ||
-		(UserText.includes('добрый вечер'))) && getRandomInt(2)) {
-			message.reply(HelloAnswers[getRandomInt(HelloAnswers.length)]);
-			return;
-		}
+		// if (((UserText.includes('привет')) ||
+		// (UserText.includes('хай')) ||
+		// (UserText.includes('доброе утро')) ||
+		// (UserText.includes('добрый день')) ||
+		// (UserText.includes('добрый вечер'))) && getRandomInt(2)) {
+		// 	message.reply(HelloAnswers[getRandomInt(HelloAnswers.length)]);
+		// 	return;
+		// }
 
-		// console.log(message.mentions.repliedUser);
-		if (message.mentions.users.first()) {
-			if ((message.mentions.users.first().id === '392060740238049280' && (getRandomInt(3) - 1) > 0) || UserText.includes('факт')) {
-				message.reply(Remembered[getRandomInt(Remembered.length)] + Facts[getRandomInt(Facts.length)]);
-				return;
-			}
-			if ((message.mentions.users.first().id === '392060740238049280' && (getRandomInt(3) - 1) > 0) || (UserText.includes('шутка') || UserText.includes('анекдот') || UserText.includes('прикол'))) {
-				message.reply(Jokes[getRandomInt(Jokes.length)]);
-				return;
-			}
-		}
+		// // console.log(message.mentions.repliedUser);
+		// if (message.mentions.users.first()) {
+		// 	if ((message.mentions.users.first().id === '392060740238049280' && (getRandomInt(3) - 1) > 0) || UserText.includes('факт')) {
+		// 		message.reply(Remembered[getRandomInt(Remembered.length)] + Facts[getRandomInt(Facts.length)]);
+		// 		return;
+		// 	}
+		// 	if ((message.mentions.users.first().id === '392060740238049280' && (getRandomInt(3) - 1) > 0) || (UserText.includes('шутка') || UserText.includes('анекдот') || UserText.includes('прикол'))) {
+		// 		message.reply(Jokes[getRandomInt(Jokes.length)]);
+		// 		return;
+		// 	}
+		// }
+		
 	}
 
 	// ///////

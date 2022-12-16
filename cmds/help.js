@@ -40,8 +40,8 @@ module.exports.run = async (bot, message, args) => {
 
 
 	const embed = new Discord.EmbedBuilder()
-		.setAuthor({ name: message.author.username, iconURL: message.author.avatarURL })
-		.setDescription(text)
+		.setAuthor({ name: message.author.username, iconURL: message.author.avatarURL() })
+		//.setDescription(text)
 		.addFields(helpFields)
 
 	// .setThumbnail(message.author.image)

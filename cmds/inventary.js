@@ -43,12 +43,11 @@ module.exports.run = async (bot, message, args) => {
 	}
 
 	// const UserAvatar = new Image();
-	// UserAvatar.src = message.author.displayAvatarURL({ format:'jpg' });
+	// UserAvatar.src = message.author.displayAvatarURL({}).replace(".webp", ".jpg");
 	// UserAvatar.onload = () =>
 	// UserAvatar.onerror = err => { throw err; };
 
-	// const myimg = await loadImage(message.author.displayAvatarURL({}));
-
+	const myimg = await loadImage(message.author.displayAvatarURL({}).replace(".webp", ".jpg"));
 	async function Draw(startPos, currentItemCount) {
 
 		const NewIcon = new Image();
@@ -58,7 +57,7 @@ module.exports.run = async (bot, message, args) => {
 		const image2 = new Image();
 		const crown = new Image();
 
-		console.log(message.author.displayAvatarURL());
+		console.log(message.author.displayAvatarURL().replace(".webp", ".jpg"));
 
 		image2.src = './items/chip.png';
 		// image3.src = `https://mdn.mozillademos.org/files/5397/rhino.jpg`;
@@ -68,14 +67,14 @@ module.exports.run = async (bot, message, args) => {
 		crown.src = './crown.png';
 
 		ctx.drawImage(image, 0, 0, CanvasWidth, CanvasHeight);
-		//	ctx.drawImage(UserAvatar, 0, 0, 100, 100);
+		// ctx.drawImage(UserAvatar, 0, 0, 100, 100);
 
 		const ImgW = 150;
 		const ImgH = 150;
 		const positionX = CanvasWidth - 240;
 		const positionY = CanvasHeight - 350;
 
-		//	ctx.drawImage(myimg, positionX, positionY, ImgW, ImgH);
+		ctx.drawImage(myimg, positionX, positionY, ImgW, ImgH);
 		if (message.member.roles.cache.find(role => role.id == '416951239650050048')) ctx.drawImage(crown, positionX, positionY - 100, ImgW, ImgH - 50);
 		//	console.log(canvas);
 
